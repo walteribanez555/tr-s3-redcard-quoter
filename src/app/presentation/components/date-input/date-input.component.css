@@ -88,3 +88,16 @@ h2 {
 .header-calendar button:hover {
   color: var(--main-color);
 }
+
+
+@media (max-width: 768px) {
+
+  div{
+    width: 280px;
+  }
+
+  li{
+    font: 1.2ch;
+  }
+
+}

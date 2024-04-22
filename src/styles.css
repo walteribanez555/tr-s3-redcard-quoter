@@ -132,7 +132,7 @@ input, select{
 @media (max-width: 768px) {
 
   .field{
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 

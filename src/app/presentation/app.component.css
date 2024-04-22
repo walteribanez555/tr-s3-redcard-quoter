@@ -1,0 +1,9 @@
+
+
+@media (max-width:768px) {
+  location-input {
+    width: 100%;
+    padding: 0px 35px 0px 20px;
+  }
+
+}
