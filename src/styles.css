@@ -87,6 +87,7 @@ html {
   padding: 20px;
   gap: 20px;
   align-items: center;
+  background-color: var(--body-bg);
 }
 
 
