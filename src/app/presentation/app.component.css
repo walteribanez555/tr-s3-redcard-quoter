@@ -1,9 +1,29 @@
 
+button{
+  padding: 10px 80px;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: var(--main-color);
+  font-weight: bold;
+
+}
+
 
 @media (max-width:768px) {
   location-input {
     width: 100%;
     padding: 0px 35px 0px 20px;
+  }
+
+
+  card-age{
+    width: 100%;
+  }
+
+  button{
+    width: 100%;
   }
 
 }

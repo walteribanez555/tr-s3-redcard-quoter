@@ -29,6 +29,8 @@ li {
   font-size: 1.5ch;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  font-weight: 400;
+
 }
 li:hover {
   font-weight: 600;
@@ -45,6 +47,10 @@ li.selected {
   font-weight: bold;
   color: white;
   background-color: var(--main-color);
+}
+
+h1{
+  font-weight: 400;
 }
 
 h2 {
@@ -103,6 +109,7 @@ h2 {
   .wrapper-calendar {
     margin: 0px;
   }
+
 
 
 

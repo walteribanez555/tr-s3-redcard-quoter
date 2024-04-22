@@ -11,4 +11,23 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './card-age.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CardAgeComponent { }
+export class CardAgeComponent {
+
+
+  quantity : number = 0;
+
+
+  onAdd() {
+    this.quantity = this.quantity +1;
+  }
+
+
+  onLess() {
+    if(this.quantity > 0) {
+      this.quantity = this.quantity -1;
+    }
+  }
+
+
+
+}
