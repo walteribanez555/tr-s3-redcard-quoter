@@ -47,8 +47,8 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--body-bg);
+  font-family: "lato", sans-serif;
+  background-color: transparent;
   color: var(--text-color);
   position: relative;
   width: fit-content;
