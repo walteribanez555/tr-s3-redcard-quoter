@@ -93,11 +93,17 @@ h2 {
 @media (max-width: 768px) {
 
   div{
-    width: 280px;
+    width: 250px;
   }
 
   li{
-    font: 1.2ch;
+    font-size: 1.2ch;
   }
+
+  .wrapper-calendar {
+    margin: 0px;
+  }
+
+
 
 }
