@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'card-age',
@@ -14,17 +15,23 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 export class CardAgeComponent {
 
 
-  quantity : number = 0;
+  @Input() ageFormControl! : FormControl;
+
+
+  // quantity : number = 0;
 
 
   onAdd() {
-    this.quantity = this.quantity +1;
+    const quantity = this.ageFormControl.value;
+    this.ageFormControl.setValue(quantity + 1);
   }
 
 
   onLess() {
-    if(this.quantity > 0) {
-      this.quantity = this.quantity -1;
+    const quantity = this.ageFormControl.value;
+
+    if(quantity > 0) {
+      this.ageFormControl.setValue( quantity - 1 );
     }
   }
 
