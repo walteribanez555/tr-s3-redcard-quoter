@@ -61,18 +61,25 @@ export class AppComponent {
 
     if ((initialAge! > 0 || adultAge! > 0) && seniorAge! > 0) {
       window.alert('Los grupos de mayores de 70 se cotizan por separado');
+      return;
     }
 
     if (!initialDate) {
       window.alert('La fecha inicial es requerida');
+      return;
+
     }
 
     if (!finalDate) {
       window.alert('La fecha final es requerida');
+      return;
+
     }
 
     if (!destiny) {
       window.alert('El destino es requerido');
+      return;
+
     }
 
     const repeatedArray = [];
